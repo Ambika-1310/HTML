@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <style>
+
+        .container-1{
+                display: flex;
+                background-color:pink;
+                border: solid 2px black;
+        }
+        .container-2{
+                display: flex;
+                justify-content: space-around;
+                background-color:pink;
+                border: solid 2px black;
+        }
+        .container-3{
+            display: flex;
+            justify-content: space-between;
+            background-color:pink;
+            border: solid 2px black;
+        }
+        .container-4{
+                display: flex;
+                justify-content: space-evenly;
+                background-color:pink;
+                border: solid 2px black;
+        }
+        #box{
+                height: 100px;
+                width: 100px;
+                border: solid 2px black;
+                margin:10px ;
+        }
+    </style>
+</head>
+
+<body>
+    *****without justify statement applay only flex*****
+    <div class="container-1">
+        <div id="box" ></div>
+        <div id="box" ></div>
+        <div id="box" ></div>
+        <div id="box" ></div>
+    </div>
+    <br>
+    *****Space around flex*****
+    <div class="container-2">
+        <div id="box" >Red</div>
+        <div id="box" >Yellow</div>
+        <div id="box" >Green</div>
+        <div id="box" >purple</div>
+    </div>
+    <br>
+    *****Space between*****
+    <div class="container-3">
+        <div id="box"></div>
+        <div id="box"></div>
+        <div id="box"></div>
+        <div id="box"></div>
+    </div>
+    <br>
+    *****Evenly*****
+    <div class="container-4">
+        <div id="box"></div>
+        <div id="box"></div>
+        <div id="box"></div>
+        <div id="box"></div>
+    </div>
+</body>
+</html>
